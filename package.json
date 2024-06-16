@@ -1,0 +1,17 @@
+{
+  "name": "weekend-health",
+  "version": "1.0.0",
+  "description": "1) The idea is to first store all the dictionary words into a Trie Data structure, since each subsequent look up of a word would be done in O(n * l),  where n = number of words in dictionary and  l = average length of each word",
+  "main": "findWords.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
